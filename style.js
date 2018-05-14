@@ -37,4 +37,27 @@ clear.addEventListener('click',function(){
 const dele = document.querySelector('.adel');
 dele.addEventListener('click',function(){
     display.textContent = display.textContent.slice(0, -1);
-})
+});
+
+/* hardmath calculations */
+const hardmath = document.querySelector('.hardmath');
+hardmath.addEventListener('click',function(e){
+    switch(e.target.className){
+        case 'asqrt': display.textContent = Math.sqrt(display.textContent);
+            break;
+        case 'acubert': display.textContent = Math.cbrt(display.textContent);
+            break;
+        case 'asin': display.textContent = Math.sin(display.textContent);
+            break;
+        case 'acos': display.textContent = Math.cos(display.textContent);
+            break;
+        case 'atan': display.textContent = Math.tan(display.textContent);
+            break;
+        case 'aexp': display.textContent = Math.exp(display.textContent);
+            break;
+        case 'alog10': display.textContent = Math.log10(display.textContent);
+            break;
+        case 'aloge': display.textContent = Math.log(display.textContent);
+            break;
+    }
+});
