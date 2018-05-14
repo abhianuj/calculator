@@ -15,7 +15,7 @@ numbers.addEventListener('click',function(e){
     else{
         display.textContent = display.textContent + e.target.textContent;
     }
-    window.navigator.vibrate(34);
+    window.navigator.vibrate(28);
 });
 
 /* Grabbing the operators when clicked */
@@ -26,7 +26,7 @@ operators.addEventListener('click',function(e){
     else{
         display.textContent = display.textContent + e.target.textContent;
     }
-    window.navigator.vibrate(34);
+    window.navigator.vibrate(28);
 });
 
 /* Clearing the display when Clr is clicked */
@@ -64,5 +64,5 @@ hardmath.addEventListener('click',function(e){
         case 'aloge': display.textContent = Math.log(display.textContent);
             break;
     }
-    window.navigator.vibrate(38);
+    window.navigator.vibrate(28);
 });
