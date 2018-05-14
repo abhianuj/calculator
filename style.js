@@ -15,6 +15,7 @@ numbers.addEventListener('click',function(e){
     else{
         display.textContent = display.textContent + e.target.textContent;
     }
+    window.navigator.vibrate(500);
 });
 
 /* Grabbing the operators when clicked */
