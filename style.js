@@ -33,14 +33,14 @@ operators.addEventListener('click',function(e){
 const clear = document.querySelector('.areset');
 clear.addEventListener('click',function(){
     display.textContent = "0";
-    window.navigator.vibrate(34);
+    window.navigator.vibrate(28);
 });
 
 /* Deleting the prevous content */
 const dele = document.querySelector('.adel');
 dele.addEventListener('click',function(){
     display.textContent = display.textContent.slice(0, -1);
-    window.navigator.vibrate(34);
+    window.navigator.vibrate(28);
 });
 
 /* hardmath calculations */
@@ -64,5 +64,5 @@ hardmath.addEventListener('click',function(e){
         case 'aloge': display.textContent = Math.log(display.textContent);
             break;
     }
-    window.navigator.vibrate(34);
+    window.navigator.vibrate(38);
 });
