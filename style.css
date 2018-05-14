@@ -10,7 +10,7 @@ body{
     width: 91vw;
     height: 80vh;
     background-color: #55A0FF;
-    margin: 10vh auto;
+    margin: 4vh auto;
     padding: 10px;
     display: grid;
     grid-template-columns: repeat(12,1fr);
