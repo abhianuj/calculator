@@ -15,7 +15,7 @@ numbers.addEventListener('click',function(e){
     else{
         display.textContent = display.textContent + e.target.textContent;
     }
-    window.navigator.vibrate(20);
+    window.navigator.vibrate(34);
 });
 
 /* Grabbing the operators when clicked */
@@ -26,21 +26,21 @@ operators.addEventListener('click',function(e){
     else{
         display.textContent = display.textContent + e.target.textContent;
     }
-    window.navigator.vibrate(20);
+    window.navigator.vibrate(34);
 });
 
 /* Clearing the display when Clr is clicked */
 const clear = document.querySelector('.areset');
 clear.addEventListener('click',function(){
     display.textContent = "0";
-    window.navigator.vibrate(20);
+    window.navigator.vibrate(34);
 });
 
 /* Deleting the prevous content */
 const dele = document.querySelector('.adel');
 dele.addEventListener('click',function(){
     display.textContent = display.textContent.slice(0, -1);
-    window.navigator.vibrate(20);
+    window.navigator.vibrate(34);
 });
 
 /* hardmath calculations */
@@ -64,5 +64,5 @@ hardmath.addEventListener('click',function(e){
         case 'aloge': display.textContent = Math.log(display.textContent);
             break;
     }
-    window.navigator.vibrate(20);
+    window.navigator.vibrate(34);
 });
