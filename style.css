@@ -74,6 +74,3 @@ div[class^="a"]:hover{
     opacity: 0.5;
     color: black;
 }
-.hardmath div{
-    line-height: 10vh
-}
