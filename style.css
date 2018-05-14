@@ -9,7 +9,7 @@ body{
 .dabba{
     width: 91vw;
     height: 80vh;
-    background-color: #487AFF;
+    background-color: #55A0FF;
     margin: 10vh auto;
     padding: 10px;
     display: grid;
@@ -34,10 +34,9 @@ body{
 .controls{
     grid-row: 3/4;
     grid-column: 1/10;
-}
-.controls div{
-    display: inline-block;
-    width: 31vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
 }
 .numbers{
     grid-column: 1/10;
