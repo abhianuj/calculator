@@ -3,8 +3,8 @@
   "name": "Calculator",
   "icons": [
     {
-      "src":"calculator.png",
-      "sizes": "128x128",
+      "src":"fireworks-icon192x192.png",
+      "sizes": "192x192",
       "type": "image/png"
     }
   ],
