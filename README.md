@@ -1,2 +1,2 @@
 # calculator
-A simple calculator using html css and javascript
+A simple pwa(progressive web app) calculator using html css and javascript.
